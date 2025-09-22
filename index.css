@@ -73,6 +73,10 @@ a:hover {
     color: var(--light);
 }
 
+/* #about-home {
+    color: var(--primary);
+} */
+
 /* Layout */
 .container {
     width: 90%;
@@ -117,6 +121,12 @@ header.scrolled {
     font-weight: 700;
     color: var(--primary);
     font-family: 'SF Mono', monospace;
+}
+
+.active-page{
+    background-color: rgba(100, 255, 218, 0.5);
+    border-radius: 5px;
+    
 }
 
 .nav-links {
@@ -239,7 +249,11 @@ header.scrolled {
     align-items: center;
 }
 
-.about-text h2 {
+.about-text h2{
+    margin-bottom: 2rem;
+}
+
+.underline{
     margin-bottom: 2rem;
 }
 
